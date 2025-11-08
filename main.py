@@ -229,7 +229,7 @@ if plot and dichotomic_search:
     plt.tight_layout()
     plt.show()
 
-integer_programming = True
+integer_programming = False
 if integer_programming:
     integer_program = IntegerProgram(grid, building_weight=1, water_height=river_water_level + water_level_increase)
     integer_program.formulate_problem(number_protected_buildings=0)
