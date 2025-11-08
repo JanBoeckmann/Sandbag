@@ -1,0 +1,3 @@
+cut_cells:
+sandbags_needed:10.42
+flooded_buildings:
